@@ -1,0 +1,17 @@
+ion-card {
+    padding: 15px;
+    margin: 16px;
+    width: auto;
+    ion-img {
+        height: 250px;
+    }
+}
+
+ion-content {
+    --background: var(--ion-theme-secondary-color);
+}
+
+ion-toolbar {
+    --background: var(--ion-theme-primary-color);
+    --color: var(--ion-theme-secondary-color);
+}

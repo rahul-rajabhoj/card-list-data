@@ -1,0 +1,27 @@
+ion-content {
+    --background: var(--ion-theme-secondary-color);
+}
+
+ion-toolbar {
+    --background: var(--ion-theme-primary-color);
+    --color: var(--ion-theme-secondary-color);
+}
+
+ion-card {
+    height: 70px;
+    margin: 0px 16px 12px 0px;
+    border-radius: 7px;
+}
+
+ion-card-title {
+    position: absolute;
+    top: 30%;
+    left: 15px;
+}
+
+ion-list {
+    background: var(--ion-theme-secondary-color);
+    padding-top: 0;
+    margin-top: 12px;
+    margin-left: 16px;
+}

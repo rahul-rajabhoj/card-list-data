@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>{{ card.value | titlecase }} of {{ card.suit | titlecase }} Detail </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-img [src]="card.image"></ion-img>
+    <ion-card-header>
+      <ion-card-title>{{ card.value | titlecase }} of {{ card.suit | titlecase }}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>Suit : {{ card.suit }} </p>
+      <p>Value : {{ card.value }} </p>
+      <p>Code : {{ card.code }} </p>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
