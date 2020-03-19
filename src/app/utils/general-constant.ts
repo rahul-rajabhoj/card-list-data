@@ -1,5 +1,8 @@
 export class GeneralConstant {
 
+    public static DATABASE_NAME = 'card_data.db';
+    public static DATABASE_LOCATION = 'default';
+
     public static APPLICATION_URL = 'https://deckofcardsapi.com/api/deck/';
 
     public static NEW_SHUFFLE = 'new/shuffle/';
